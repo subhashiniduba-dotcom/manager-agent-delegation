@@ -1,0 +1,22 @@
+# Secrets - NEVER commit these
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# CrewAI / tool local storage and logs
+.crewai/
+*.log
+.pytest_cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
